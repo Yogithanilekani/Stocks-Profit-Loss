@@ -14,9 +14,9 @@ Output will be shown below the button after its calculated.<br>
 
 Programming Language:
 
-html
-css
-javascript
+Html <br>
+Css <br>
+Javascript <br>
 
 
 Don't forget to leave a ⭐ if you found this useful.
