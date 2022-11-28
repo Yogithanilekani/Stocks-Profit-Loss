@@ -19,7 +19,7 @@ function calculateProfitOrLoss(initial, quantity, current) {
 	if (initial > current) {
 		let loss = (initial - current) * quantity;
 		let lossPercentage1 = (loss / (initial * quantity)) * 100;
-		let lossPercentage = lossPercentage1.toFixed()
+		let lossPercentage = lossPercentage1.toFixed(1)
 		outputBox.style.color = 'red';
 		outputBox.innerHTML = `Whoops!! Your loss is ${loss} and loss Percentage is ${lossPercentage}% :(`;
 	}
